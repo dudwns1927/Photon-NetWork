@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using Photon.Realtime;
 
 public class LobbyManager : MonoBehaviourPunCallbacks {
-    [SerializeField] Transform parenttransform;
+    [SerializeField] Transform parentTransform;
 
     [SerializeField] Dictionary<string, GameObject> dictionary = new Dictionary<string, GameObject>();
 
@@ -42,8 +42,13 @@ public class LobbyManager : MonoBehaviourPunCallbacks {
 
                 //룸이 처음 생성되는 경우
                 if (dictionary.ContainsKey(room.Name)==false) {
-                    GameObject clone = Instantiate(Resources.Load<GameObject>("RoomItem"), parenttransform);
-                    dictionary.Add(room.Name, prefab);
+
+                    GameObject clone = Instantiate(Resources.Load<GameObject>("Room"), parentTransform);
+
+                    clone.GetComponent<Information>().Details(room.Name, room.PlayerCount, room.MaxPlayers);
+
+                    dictionary.Add(room.Name, clone);
+
                 } else { //룸이 갱신되었을 때
                     dictionary.TryGetValue(room.Name, out prefab);
 

@@ -4,7 +4,7 @@ using Photon.Pun;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Information : MonoBehaviour
+public class Information : MonoBehaviourPunCallbacks
 {
     [SerializeField] string roomName;
 
