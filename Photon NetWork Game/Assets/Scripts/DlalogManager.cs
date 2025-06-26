@@ -18,11 +18,14 @@ public class DlalogManager : MonoBehaviourPunCallbacks
             if(inputField.text.Length <= 0) {
                 return;
             }
-            GameObject talk = Instantiate(Resources.Load<GameObject>("Talk"));
 
-            talk.transform.SetParent(parentTransform);
+            //GameObject talk = Instantiate(Resources.Load<GameObject>("Talk"));
+            //talk.transform.SetParent(parentTransform);
+            //talk.GetComponent<Text>().text = inputField.text;
 
-            talk.GetComponent<Text>().text = inputField.text;
+            //RTC Target.All : 현재 룸에 있는 모든 클라이언트에게 Talk() 함수를 실행하라고 전달한다.
+
+            photonView.RPC("talk", RpcTarget.All, inputField.text);
 
             inputField.text = "";
 
@@ -31,5 +34,20 @@ public class DlalogManager : MonoBehaviourPunCallbacks
 
     }
 
+    [PunRPC]
+    
+    void talk(string message) {
+
+        // prefab을 하나 생성한다음 text에 값을 설정합니다.
+        GameObject talk = Instantiate(Resources.Load<GameObject>("Talk"));
+        // prefab 오브젝트의  text 컴포넌트로 접근해서 text 의 값을 설정합니다.
+        talk.GetComponent<Text>().text = message;
+        // 스크롤 뷰 - content 오브젝트에 자식으로 등록합니다.
+        talk.transform.SetParent(parentTransform);
+        //canvas를 수동으로 동기화시킵니다.
+        Canvas.ForceUpdateCanvases();
+        //스크롤 위치를 초기화 합니다.
+        scrollRect.verticalNormalizedPosition = 0.0f;
+    }
 
 }

@@ -394,6 +394,7 @@
 "Assets/Scripts/Information.cs"
 "Assets/Scripts/Lobby Manager.cs"
 "Assets/Scripts/Mouse.cs"
+"Assets/Scripts/NewBehaviourScript.cs"
 "Assets/Scripts/PlayfabManager.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
