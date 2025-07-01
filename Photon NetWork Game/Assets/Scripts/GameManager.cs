@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviourPunCallbacks
 {
@@ -12,6 +13,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     [SerializeField] int second;
     [SerializeField] int millisecond;
 
+    [SerializeField] Text timeText;
 
     // Start is called before the first frame update
     void Start()
@@ -29,8 +31,7 @@ public class GameManager : MonoBehaviourPunCallbacks
         millisecond = (int)((Time * 100) % 100);
 
 
-        Debug.Log($"{minute:D2} : {second:D2} : {millisecond:D2}");
-        Debug.Log("Time: " + minute + " : " + second + " : " + millisecond);
+        timeText.text = $"{minute:D2}:{second:D2}:{millisecond:D2}";
         //System.TimeSpan timeSpan = System.TimeSpan.FromSeconds(Time);
         //Debug.Log($"{timeSpan.ToString(@"hh\:mm\:ss")}");
     }
