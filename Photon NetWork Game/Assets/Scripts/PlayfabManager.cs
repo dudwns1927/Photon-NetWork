@@ -8,6 +8,8 @@ using Photon.Realtime;
 public class PlayfabManager : MonoBehaviourPunCallbacks
 {
     [SerializeField] string version;
+
+    [SerializeField] GameObject failurePanel;
     [SerializeField] InputField emailInputField;
     [SerializeField] InputField passwordInputField;
 
@@ -41,7 +43,8 @@ public class PlayfabManager : MonoBehaviourPunCallbacks
     }
 
     void Failure(PlayFabError playFabError) {
-        Debug.LogError(playFabError.GenerateErrorReport());
+        failurePanel.GetComponent<Failure>().Message(playFabError.GenerateErrorReport());
+        failurePanel.SetActive(true);
     }
 
 

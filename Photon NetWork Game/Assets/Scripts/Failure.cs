@@ -1,18 +1,22 @@
+using PlayFab;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Failure : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
+    [SerializeField] Text contentText;
+   
+    
+    public void Message(string error) {
+        error = error.Replace("/Client/LoginWithEmailAddress: Invalid input parameters", "");
+        contentText.text = error;
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void Confirm() {
+        gameObject.SetActive(false);
     }
+
 }

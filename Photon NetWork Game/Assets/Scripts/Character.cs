@@ -63,4 +63,12 @@ public class Character : MonoBehaviourPun {
             virtualCamera.GetComponent<AudioListener>().enabled = false;
         }
     }
+
+    private void OnTriggerEnter(Collider other) {
+        if (other.CompareTag("Authorized")) {
+
+            PhotonNetwork.Destroy(other.gameObject);
+        }
+    
+    }
 }

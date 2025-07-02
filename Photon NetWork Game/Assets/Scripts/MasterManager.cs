@@ -7,6 +7,7 @@ using Photon.Realtime;
 
 public class MasterManager : MonoBehaviourPunCallbacks
 {
+    [SerializeField] GameObject clone;
     [SerializeField] WaitForSeconds waitForSeconds = new WaitForSeconds(5.0f);
     [SerializeField] Vector3 direction;
  
@@ -20,7 +21,10 @@ public class MasterManager : MonoBehaviourPunCallbacks
         while (true) {
 
             if (PhotonNetwork.CurrentRoom != null) {
-                PhotonNetwork.InstantiateRoomObject("Unit", direction, Quaternion.identity);
+                if(clone == null) {
+                   clone =  PhotonNetwork.InstantiateRoomObject("Unit", direction, Quaternion.identity);
+                }
+                
             }
             yield return waitForSeconds;
 

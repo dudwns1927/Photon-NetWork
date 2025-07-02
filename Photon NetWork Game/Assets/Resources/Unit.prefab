@@ -178,7 +178,6 @@ GameObject:
   - component: {fileID: 1262750989057257539}
   - component: {fileID: 6876683595174705082}
   - component: {fileID: 831045053567507400}
-  - component: {fileID: 1360161302872719294}
   m_Layer: 0
   m_Name: Buckle_Inner
   m_TagString: Untagged
@@ -251,27 +250,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1360161302872719294
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931025089337973037}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1218710225849187012
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,7 +261,6 @@ GameObject:
   - component: {fileID: 882570623463567134}
   - component: {fileID: 710114900157970456}
   - component: {fileID: 3838562317322804478}
-  - component: {fileID: 6021761274951603691}
   m_Layer: 0
   m_Name: Buckle_Outer
   m_TagString: Untagged
@@ -356,27 +333,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6021761274951603691
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1218710225849187012}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1228106426491557287
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,7 +344,6 @@ GameObject:
   - component: {fileID: 8619987663041241794}
   - component: {fileID: 1617359774972883233}
   - component: {fileID: 1791963245361246328}
-  - component: {fileID: 6054338988724927523}
   m_Layer: 0
   m_Name: Straw (15)
   m_TagString: Untagged
@@ -461,27 +416,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6054338988724927523
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1228106426491557287}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1246864806519936358
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,7 +647,6 @@ GameObject:
   - component: {fileID: 1197472760287851148}
   - component: {fileID: 2975886007065190729}
   - component: {fileID: 1578731308980628065}
-  - component: {fileID: 1824363111585951135}
   m_Layer: 0
   m_Name: Straw (7)
   m_TagString: Untagged
@@ -786,27 +719,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1824363111585951135
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1474531375626521485}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1477396018386444631
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,7 +730,6 @@ GameObject:
   - component: {fileID: 1254174699930792268}
   - component: {fileID: 3541149731798103297}
   - component: {fileID: 8703585609694389499}
-  - component: {fileID: 1026394899229189058}
   m_Layer: 0
   m_Name: Straw (12)
   m_TagString: Untagged
@@ -891,27 +802,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1026394899229189058
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1477396018386444631}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1566382761029901845
 GameObject:
   m_ObjectHideFlags: 0
@@ -1006,7 +896,6 @@ GameObject:
   - component: {fileID: 6747167834080633790}
   - component: {fileID: 8653101189359070811}
   - component: {fileID: 5630553413478672534}
-  - component: {fileID: 3813732860969622052}
   m_Layer: 0
   m_Name: Brim
   m_TagString: Untagged
@@ -1079,29 +968,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &3813732860969622052
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1754372280395742675}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &2217096203609280540
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,7 +979,6 @@ GameObject:
   - component: {fileID: 444497688185627019}
   - component: {fileID: 7790277960090493544}
   - component: {fileID: 8046104361751830542}
-  - component: {fileID: 8818591708955590569}
   m_Layer: 0
   m_Name: Straw (11)
   m_TagString: Untagged
@@ -1186,27 +1051,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8818591708955590569
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2217096203609280540}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2503276278516656713
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,7 +1062,6 @@ GameObject:
   - component: {fileID: 970917756443413911}
   - component: {fileID: 7205026295372868841}
   - component: {fileID: 2528553293787093330}
-  - component: {fileID: 8002505216553635380}
   m_Layer: 0
   m_Name: Straw (3)
   m_TagString: Untagged
@@ -1291,27 +1134,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8002505216553635380
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2503276278516656713}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2828310746417067192
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,7 +1145,6 @@ GameObject:
   - component: {fileID: 4159159787151931453}
   - component: {fileID: 7767769290855923446}
   - component: {fileID: 4974897545843878969}
-  - component: {fileID: 4320798349099128498}
   m_Layer: 0
   m_Name: RightArm
   m_TagString: Untagged
@@ -1396,29 +1217,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &4320798349099128498
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2828310746417067192}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2978367371505245799
 GameObject:
   m_ObjectHideFlags: 0
@@ -1430,7 +1228,6 @@ GameObject:
   - component: {fileID: 5911999132533185253}
   - component: {fileID: 5517549277046613510}
   - component: {fileID: 2200038638021522362}
-  - component: {fileID: 8757925054276558030}
   m_Layer: 0
   m_Name: Straw (9)
   m_TagString: Untagged
@@ -1503,27 +1300,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8757925054276558030
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2978367371505245799}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3029551424502167769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1535,7 +1311,6 @@ GameObject:
   - component: {fileID: 3634038169074847035}
   - component: {fileID: 294211577489978293}
   - component: {fileID: 3612461368378169875}
-  - component: {fileID: 4487463615845201220}
   m_Layer: 0
   m_Name: Stem_2
   m_TagString: Untagged
@@ -1608,29 +1383,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &4487463615845201220
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3029551424502167769}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3145899568059345361
 GameObject:
   m_ObjectHideFlags: 0
@@ -1642,7 +1394,6 @@ GameObject:
   - component: {fileID: 7469438815890842768}
   - component: {fileID: 6100071173922771149}
   - component: {fileID: 7202706598464850743}
-  - component: {fileID: 3774669614089285242}
   m_Layer: 0
   m_Name: Straw (10)
   m_TagString: Untagged
@@ -1715,27 +1466,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3774669614089285242
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3145899568059345361}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3360467494516363428
 GameObject:
   m_ObjectHideFlags: 0
@@ -1747,7 +1477,6 @@ GameObject:
   - component: {fileID: 3660193146544293390}
   - component: {fileID: 988212474954614560}
   - component: {fileID: 8255101694598110442}
-  - component: {fileID: 4648562856208233214}
   m_Layer: 0
   m_Name: Stem_1
   m_TagString: Untagged
@@ -1820,29 +1549,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &4648562856208233214
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3360467494516363428}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3363650751479147009
 GameObject:
   m_ObjectHideFlags: 0
@@ -1854,7 +1560,6 @@ GameObject:
   - component: {fileID: 8170450936140238094}
   - component: {fileID: 4116788367301219314}
   - component: {fileID: 3735068349782246998}
-  - component: {fileID: 5741029716207356568}
   m_Layer: 0
   m_Name: LeftArm
   m_TagString: Untagged
@@ -1927,29 +1632,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &5741029716207356568
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3363650751479147009}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3422918414654649114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1961,7 +1643,6 @@ GameObject:
   - component: {fileID: 1526059924328639913}
   - component: {fileID: 5010887476731576020}
   - component: {fileID: 317240753698884040}
-  - component: {fileID: 8403009387317285789}
   m_Layer: 0
   m_Name: Stick
   m_TagString: Untagged
@@ -2035,29 +1716,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &8403009387317285789
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3422918414654649114}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3884510155988359645
 GameObject:
   m_ObjectHideFlags: 0
@@ -2069,7 +1727,6 @@ GameObject:
   - component: {fileID: 1959956522811248773}
   - component: {fileID: 5525338384638837253}
   - component: {fileID: 205841402586949772}
-  - component: {fileID: 7116341937262350270}
   m_Layer: 0
   m_Name: Straw (13)
   m_TagString: Untagged
@@ -2142,27 +1799,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7116341937262350270
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3884510155988359645}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4265375105478273081
 GameObject:
   m_ObjectHideFlags: 0
@@ -2174,7 +1810,6 @@ GameObject:
   - component: {fileID: 7212460729194325653}
   - component: {fileID: 6796664423703802843}
   - component: {fileID: 2476235702224678928}
-  - component: {fileID: 3024069178928984235}
   m_Layer: 0
   m_Name: Stem_3
   m_TagString: Untagged
@@ -2247,29 +1882,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &3024069178928984235
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4265375105478273081}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4318634644393923841
 GameObject:
   m_ObjectHideFlags: 0
@@ -2365,7 +1977,6 @@ GameObject:
   - component: {fileID: 6268893973762465964}
   - component: {fileID: 7313619395538727414}
   - component: {fileID: 7423388790121371402}
-  - component: {fileID: 341835477381484910}
   m_Layer: 0
   m_Name: Straw (20)
   m_TagString: Untagged
@@ -2438,27 +2049,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &341835477381484910
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4735991455747303016}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5002680053928194233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2470,7 +2060,6 @@ GameObject:
   - component: {fileID: 1207728506161793373}
   - component: {fileID: 6889316756480635364}
   - component: {fileID: 4241844882674368661}
-  - component: {fileID: 5886078224237507765}
   m_Layer: 0
   m_Name: Straw (19)
   m_TagString: Untagged
@@ -2543,27 +2132,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5886078224237507765
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5002680053928194233}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5119670785966309385
 GameObject:
   m_ObjectHideFlags: 0
@@ -2613,7 +2181,6 @@ GameObject:
   - component: {fileID: 7165679062092016973}
   - component: {fileID: 7825023226461978518}
   - component: {fileID: 231198189041282089}
-  - component: {fileID: 484621926070286492}
   m_Layer: 0
   m_Name: Straw (16)
   m_TagString: Untagged
@@ -2686,27 +2253,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &484621926070286492
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5666534842274392374}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5897894153063357645
 GameObject:
   m_ObjectHideFlags: 0
@@ -2718,7 +2264,6 @@ GameObject:
   - component: {fileID: 1696624990859397381}
   - component: {fileID: 3802763248877655271}
   - component: {fileID: 3276411888106005067}
-  - component: {fileID: 5559452198296855934}
   m_Layer: 0
   m_Name: Straw (17)
   m_TagString: Untagged
@@ -2791,27 +2336,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5559452198296855934
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5897894153063357645}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6119613884302165113
 GameObject:
   m_ObjectHideFlags: 0
@@ -2823,7 +2347,6 @@ GameObject:
   - component: {fileID: 767329615615416870}
   - component: {fileID: 8203264705218038086}
   - component: {fileID: 6613791709398019121}
-  - component: {fileID: 9097608023010253756}
   m_Layer: 0
   m_Name: Straw (8)
   m_TagString: Untagged
@@ -2896,27 +2419,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &9097608023010253756
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6119613884302165113}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6236706572399089751
 GameObject:
   m_ObjectHideFlags: 0
@@ -3046,9 +2548,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3343413398453843155}
   - component: {fileID: 8505470801450413824}
+  - component: {fileID: 7096362541813779496}
   m_Layer: 0
   m_Name: Unit
-  m_TagString: Untagged
+  m_TagString: Authorized
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3091,6 +2594,29 @@ MonoBehaviour:
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!136 &7096362541813779496
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6559403691363297537}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6633975495506570381
 GameObject:
   m_ObjectHideFlags: 0
@@ -3102,7 +2628,6 @@ GameObject:
   - component: {fileID: 6577433386910787583}
   - component: {fileID: 5240013353464868159}
   - component: {fileID: 3554503562237233314}
-  - component: {fileID: 5661894509796241847}
   m_Layer: 0
   m_Name: Straw (6)
   m_TagString: Untagged
@@ -3175,27 +2700,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5661894509796241847
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6633975495506570381}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6634761837084462334
 GameObject:
   m_ObjectHideFlags: 0
@@ -3295,7 +2799,6 @@ GameObject:
   - component: {fileID: 482358810378891061}
   - component: {fileID: 1808864236305353055}
   - component: {fileID: 6966977389397698146}
-  - component: {fileID: 3452434991931678342}
   m_Layer: 0
   m_Name: Straw (18)
   m_TagString: Untagged
@@ -3368,27 +2871,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3452434991931678342
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6706376883832883565}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7632772123793761287
 GameObject:
   m_ObjectHideFlags: 0
@@ -3400,7 +2882,6 @@ GameObject:
   - component: {fileID: 7442093861390706191}
   - component: {fileID: 6974954962153119639}
   - component: {fileID: 1253846568252894322}
-  - component: {fileID: 569204777323143030}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -3473,29 +2954,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &569204777323143030
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7632772123793761287}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7864802543571336136
 GameObject:
   m_ObjectHideFlags: 0
@@ -3540,7 +2998,6 @@ GameObject:
   - component: {fileID: 4746461932712982239}
   - component: {fileID: 1017047994134591075}
   - component: {fileID: 3354097216750574885}
-  - component: {fileID: 4525056497815591484}
   m_Layer: 0
   m_Name: Stem_4
   m_TagString: Untagged
@@ -3613,29 +3070,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &4525056497815591484
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7914966220491806755}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7990024384297256576
 GameObject:
   m_ObjectHideFlags: 0
@@ -3647,7 +3081,6 @@ GameObject:
   - component: {fileID: 4906393916422939974}
   - component: {fileID: 7511643032479557451}
   - component: {fileID: 6488075088683153208}
-  - component: {fileID: 7249191715534679954}
   m_Layer: 0
   m_Name: Straw (14)
   m_TagString: Untagged
@@ -3720,27 +3153,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7249191715534679954
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7990024384297256576}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8270136310391623756
 GameObject:
   m_ObjectHideFlags: 0
@@ -3752,7 +3164,6 @@ GameObject:
   - component: {fileID: 4665492241158848717}
   - component: {fileID: 2407401445113924362}
   - component: {fileID: 5044603789672948558}
-  - component: {fileID: 3707202477337764669}
   m_Layer: 0
   m_Name: Straw (2)
   m_TagString: Untagged
@@ -3825,27 +3236,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3707202477337764669
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8270136310391623756}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8289939867947960295
 GameObject:
   m_ObjectHideFlags: 0
@@ -3857,7 +3247,6 @@ GameObject:
   - component: {fileID: 1989886306551731231}
   - component: {fileID: 2309111865705360088}
   - component: {fileID: 474151208150869027}
-  - component: {fileID: 556420795645472966}
   m_Layer: 0
   m_Name: Straw (5)
   m_TagString: Untagged
@@ -3930,27 +3319,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &556420795645472966
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8289939867947960295}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8295827820157463564
 GameObject:
   m_ObjectHideFlags: 0
@@ -3962,7 +3330,6 @@ GameObject:
   - component: {fileID: 1818431711946060156}
   - component: {fileID: 1735078825939733117}
   - component: {fileID: 3370674410539588721}
-  - component: {fileID: 3781962644933471596}
   m_Layer: 0
   m_Name: Straw (4)
   m_TagString: Untagged
@@ -4035,27 +3402,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3781962644933471596
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8295827820157463564}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8550476773115898653
 GameObject:
   m_ObjectHideFlags: 0
@@ -4150,7 +3496,6 @@ GameObject:
   - component: {fileID: 835074416521508397}
   - component: {fileID: 1063949861512112004}
   - component: {fileID: 3446382651210526603}
-  - component: {fileID: 7272332736869212745}
   m_Layer: 0
   m_Name: Straw (1)
   m_TagString: Untagged
@@ -4223,27 +3568,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7272332736869212745
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8809662901852465295}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8902608139839593951
 GameObject:
   m_ObjectHideFlags: 0
