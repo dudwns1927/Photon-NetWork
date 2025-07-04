@@ -4,6 +4,7 @@ using UnityEngine;
 using PlayFab.ClientModels;
 using UnityEngine.UI;
 using Photon.Realtime;
+using System.Collections;
 
 public class PlayfabManager : MonoBehaviourPunCallbacks
 {
@@ -16,19 +17,26 @@ public class PlayfabManager : MonoBehaviourPunCallbacks
     public void Success(LoginResult loginResult) {
         PhotonNetwork.AutomaticallySyncScene = false;
         PhotonNetwork.GameVersion = version;
-        PhotonNetwork.ConnectUsingSettings();
+        
+        StartCoroutine(Connect());
 
     }
 
-    public override void OnConnectedToMaster() {
-        // JoinLobby : 특정 로비를 생성하여 진입하는 함수
-        PhotonNetwork.JoinLobby();
-    }
 
     public override void OnJoinedLobby() {
         PhotonNetwork.LoadLevel("Lobby");
     }
 
+    IEnumerator Connect() {
+        PhotonNetwork.ConnectUsingSettings();
+
+        while(PhotonNetwork.IsConnectedAndReady == false) {
+            yield return null;
+        }
+
+        PhotonNetwork.JoinLobby();
+    }
+    
     public void Access() {
         var request = new LoginWithEmailAddressRequest {
             Email = emailInputField.text,

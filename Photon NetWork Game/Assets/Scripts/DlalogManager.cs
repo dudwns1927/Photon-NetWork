@@ -19,6 +19,8 @@ public class DlalogManager : MonoBehaviourPunCallbacks
                 return;
             }
 
+            string talk = PhotonNetwork.LocalPlayer.NickName + " : " + inputField.text;
+
             //GameObject talk = Instantiate(Resources.Load<GameObject>("Talk"));
             //talk.transform.SetParent(parentTransform);
             //talk.GetComponent<Text>().text = inputField.text;

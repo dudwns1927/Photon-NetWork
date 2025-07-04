@@ -19,11 +19,24 @@ public class GameManager : MonoBehaviourPunCallbacks
     [SerializeField] GameObject pausePanel;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        SetMouse(false);
+    void Start() {
+        if (photonView.IsMine) {
+            SetMouse(false);
+        }
 
-        initializeTime = PhotonNetwork.Time;
+        if(PhotonNetwork.IsMasterClient) {
+            initializeTime = PhotonNetwork.Time;
+            // 마스터 클라이언트가 게임 시작을 알림
+            photonView.RPC("initializeTime", RpcTarget.AllBuffered, initializeTime);
+        }
+
+    }
+
+    [PunRPC]
+    void InitializeTime(double time)
+    {
+        initializeTime = time;
+
     }
 
     // Update is called once per frame
